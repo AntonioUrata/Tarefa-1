@@ -6,7 +6,9 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.material-icons{
+    font-size: 20px;
+}
 /* barra de navegação*/
 
 nav{
@@ -34,6 +36,7 @@ header{
     justify-content: space-between;
     align-items: left;
     padding: 50px;
+    gap: 20px;
 }
 .todo{
     font-weight: bold;
@@ -75,3 +78,38 @@ header h4{
 }
 
 /* Segunda Parte*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+.coluna{
+    background-color: #e6ecf3;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+}
+.cartao{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.itens p{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 4px 8px;
+    display: inline-block;/*importante*/
+    white-space:nowrap;
+    background-color:rgb(194, 194, 194) ;
+}
+.data{
+    padding: 7px;
+}

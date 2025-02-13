@@ -8,6 +8,7 @@ body{
 }
 .material-icons{
     font-size: 20px;
+    color:rgb(130,130,130);
 }
 /* barra de navegação*/
 
@@ -33,38 +34,31 @@ nav p{
 
 header{
     display: flex;
-    justify-content: space-between;
-    align-items: left;
     padding: 50px;
     gap: 20px;
 }
 .todo{
     font-weight: bold;
     display: flex;
-    flex: 1;
     gap: 40px;
-    text-align: left;
 }
 .inprogress{
     font-weight: bold;
     display: flex;
-    flex: 1;
     gap: 40px;
-    text-align: left;
+    margin-left: 150px;
 }
-.inrewiew{
+.inreview{
     font-weight: bold;
     display: flex;
-    flex: 1;
     gap: 40px;
-    text-align: left;
+    margin-left: 90px;
 }
 .completed{
     font-weight: bold;
-    display: flex;
-    flex: 1;
+    display: flex; 
     gap: 40px;
-    text-align: left;
+    margin-left: 90px;
 }
 header h4{
     font-weight: bold;
@@ -73,23 +67,27 @@ header h4{
     padding: 2px;
     background-color:rgb(194, 194, 194) ;
 }
-.material-icons{
-    color:rgb(130,130,130);
+.numero{
+    font-weight: bold;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 2px;
+    background-color:rgb(194, 194, 194) ;
 }
-
 /* Segunda Parte*/
 
 main {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    gap: 20px;
+    padding: 10px;
+    gap: 10px;
 }
 .coluna{
     background-color: #e6ecf3;
     padding: 10px;
     border-radius: 8px;
     width: 250px;
+    height: max-content;
 }
 .cartao{
     background-color: white;

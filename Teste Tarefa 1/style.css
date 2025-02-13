@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(219, 226, 234);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* barra de navegação*/
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.direita{
+    display: flex;
+    gap: 17px;
+}
+nav p{
+    font-weight: bold;
+    border: 3px solid rgb(130, 130, 130);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+/* primeira parte*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 50px;
+}
+.todo{
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    text-align: left;
+}
+.inprogress{
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    text-align: left;
+}
+.inrewiew{
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    text-align: left;
+}
+.completed{
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    text-align: left;
+}
+header h4{
+    font-weight: bold;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    padding: 2px;
+    background-color:rgb(194, 194, 194) ;
+}
+.material-icons{
+    color:rgb(130,130,130);
+}
+
+/* Segunda Parte*/
